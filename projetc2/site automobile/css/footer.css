@@ -1,0 +1,101 @@
+#mainfooter, #entete
+{ background-color:  #232628;} 
+
+#entete p{color: orange;}
+
+#entete {
+  color: white;
+background-image: url(véhicule/vehicule1.jpg)}
+
+#mainNav{background-color: rgb(192, 178, 178);
+width: 100%;
+}
+#mainNav a 
+{color:#0d0d0d;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size:large;
+padding: 10px;
+}
+
+#mainNav li :hover{background-color: orange;
+color: white;
+font-size: large;}
+
+  
+   
+
+
+#mainNav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    float: right;
+}
+#entete,.flex-container {
+    display: flex;
+    background-color: rgb(62, 57, 57);
+    align-items: center;
+  }
+  
+  .flex-container > div{
+   padding: 20px;
+    font-size: 15px;
+    background-color:transparent;
+    margin: 20px;
+   justify-content: space-between;
+   text-align: center;
+  }
+ 
+  #pageContent,.flex-container{
+    align-items: center;
+  }
+  
+  
+  #rightCol .orange{color: orange;}
+
+  #pageContent.contact
+
+  #pageContent.contact #frmcontact{display: grid;}
+
+  #pageContent .contact #frmcontact >div>div{margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+  #pageContent.contact #frmcontact label{margin-top: 20px;}
+
+  #pageContent.contact #frmcontact textarea{height: 150px;
+  resize: none;}
+  #pageContent.contact #frmcontact button{padding: 10px;
+  background-color: rgb(121, 121, 238);
+border: none;
+margin-top: 30px;
+color: white;}
+
+  .cadre1,.cadre2{background-image:url("véhicule/vente-location.jpg") ;}
+
+  .cadre1{background-color: orange;}
+
+  .cadre2{background-color: rgb(191, 67, 67);}
+
+  
+
+
+  #mainFooter .flex-container > h3{
+    font: size 10px;}
+    #mainFooter .flex-container{
+      color: white;
+    }
+
+  #fin{text-align: center;}
+
+  @media screen and (min-with:1024px){
+    #pageContent.contact #frmcontact{
+   grid-template-columns:repeat(2,1fr); 
+   grid-gap: 20px;}
+  @media screen and (min-with:768px)
+
+  @media screen and (min-with:1200px)}
+  #mainNav a {padding: 0 10px;}
